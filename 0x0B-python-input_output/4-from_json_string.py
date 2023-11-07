@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-''' function that returns an object (Python data structure) represented by a JSON string
-'''
 
+""" from_json_string module """
 import json
 
 
 def from_json_string(my_str):
-    ''' module from_json_string
-     returns Python objects
-    '''
+    """
+    Return a JSON object
+    """
+
     return json.loads(my_str)
